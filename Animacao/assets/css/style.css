@@ -3,6 +3,7 @@ body{
     padding: 0;
 }
 
+/*Animações*/
 @keyframes animacao-caixa{
     from{/*Estado inicial da caixa*/
         background: rgb(100, 100, 201);
@@ -32,4 +33,34 @@ body{
     animation-direction: alternate;*/
     /**********************************/
     animation: animacao-caixa 5s 2s 2 alternate;
+}
+
+h1{
+    padding: 10px;
+    margin: 0 auto;
+}
+/************************************************************/
+
+
+
+
+
+
+/*Transições*/
+
+#caixa2{
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    margin: 15px;
+    background: rgb(240, 218, 25);
+}
+
+#caixa2:hover{
+    width: 400px;
+    padding: 10px;
+    margin: 15px;
+    background: rgb(131, 240, 88);
+    /*transition: width 3s, background 3s;*/
+    transition: all 3s;
 }
